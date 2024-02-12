@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.container {
+    width: 365;
+    padding: 33px;
+    text-align: center;
+    background-color: #ffff;
+    margin-left: 33%;
+    margin-top: 5px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 19px;
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.text ul {
+    position: relative;
+    color: black;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}

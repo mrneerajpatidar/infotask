@@ -1,0 +1,605 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 200, 137);
+    color: black;
+    padding: 20px;
+    gap: 300px;
+    font-family: sans-serif;
+}
+
+.o {
+ color: white;
+}
+
+.menu-right {
+    text-align: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+} 
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    padding: 5px;
+}
+
+/*.span {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}*/
+
+.hero {
+    display: flex;
+    background-image: linear-gradient(to right, white 0%, white 50%, rgb(243, 200, 137) 50%, rgb(243, 200, 137) 100%);
+}
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+
+}
+
+.p {
+    color: red;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+p.built {
+    line-height: 1.9;
+    font-size: 20px;
+}
+
+.button1 {
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+
+
+.button2 {
+    
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.category {
+    margin-top: 100px;
+    text-align: center; 
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.a {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.a1 {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+    padding: 40px 30px 10px 30px;
+    margin: 0 30px;
+}
+
+
+.a2 {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+    padding: 40px 30px 10px 30px;
+    margin: 0 30px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.a3 {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+    padding: 40px 30px 10px 30px;
+    margin: 0 30px;
+}
+ 
+.a4 {
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 40px;
+    padding: 40px 30px 10px 30px;
+    margin: 0 30px; 
+}
+
+.top_Destinations {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.b1 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.b2 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.b3 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+}
+
+.easy {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.easy1 {
+    flex-basis: 50%;
+}
+
+.easy2 {
+    float: right;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    margin-top: 100px;
+}
+
+.p2 {
+    font-size: 20px;
+}
+
+.c {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    gap: 20px; 
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    gap: 20px;
+    
+}
+
+.c2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    gap: 20px; 
+}
+
+.testimonials {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 200px;
+}
+
+.about_us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials2 {
+    border-radius: 40px;
+    padding: 20px 20px 20px 20px;
+    line-height: 1.9;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px black;
+    width: 200px;
+    height: auto;
+}
+ 
+.airlines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.subscribe {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+  
+}
+
+input[type=email], select {
+    width: 100%;
+    height: 70px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.button {
+    background-color: rgb(221, 85, 22);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 85px;
+    height: 40px;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+table, td, th {  
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .hero {
+        display: flex;
+    }
+    
+    .category {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       width: 100%;       
+    }
+    .a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .top_Destinations {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .b {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .easy {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .about_us {
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+        width: 100%;    
+    }
+
+    .testimonials2 {
+        width: 50%;
+    }
+     
+    
+    .airlines{
+        display: flex;
+        gap: 100px;   
+    }
+    
+    .subscribe {
+        width: 100%;
+    }
+    
+    .footer {
+        gap: 100px;
+    }
+
+    table, td, th {  
+        text-align: left;
+        font-size: 20px;
+        width: 40%  
+    }
+}
+      
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    
+    .Travel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+        margin-left: 200px;
+    }
+      
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .category {
+       text-align: center;
+       width: 100%;       
+    }
+    .a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .top_Destinations {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .b {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .easy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .easy2 {
+        float: right;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: scroll;
+        margin-top: 100px;
+    }
+    
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 200px;
+        width: 50%;
+    }
+    .about_us {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;    
+    }
+     
+    .testimonials2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .airlines{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .subscribe {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center; 
+    }
+    
+    .footer {
+        gap: 100px;
+        width: 100%;
+        line-height: 1.9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table, td, th {  
+        text-align: left;
+        font-size: 20px;
+        width: 50%  
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    .hero {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+   } 
+  
+   .category {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+   }
+
+    .a {
+     display: flex;
+     flex-direction: column;
+
+    }
+    
+    .top_Destinations {
+        text-align: center;
+        align-items: center;
+    }
+    
+    .b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .easy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .testimonials {
+        width: 100%;
+        gap: 100px;
+        align-items: center;
+    }
+
+    .about_us {
+        display: flex;
+        flex-direction: column;   
+    }
+    
+    .airlines{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .subscribe {
+        width: 100%;
+        text-align: center; 
+    }
+ 
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        line-height: 1.9;
+        align-items: center;
+    }
+
+    table, td, th {  
+        text-align: left;
+        font-size: 20px;
+        width: 50%  
+    }
+}
